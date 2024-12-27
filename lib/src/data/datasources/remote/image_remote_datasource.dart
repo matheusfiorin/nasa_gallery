@@ -21,6 +21,7 @@ class ImageRemoteDataSourceImpl implements ImageRemoteDataSource {
         baseUrl,
         queryParameters: {
           'api_key': apiKey,
+          'count': 20,
         },
       );
 
