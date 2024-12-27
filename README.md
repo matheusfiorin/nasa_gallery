@@ -1,16 +1,29 @@
 # nasa_gallery
 
-A new Flutter project.
+A new Flutter project to solve [this challenge](https://gist.github.com/cloudwalk-tests/68db9331919d02c16b1e05c5daa0364f).
 
-## Getting Started
+## Architecture
 
-This project is a starting point for a Flutter application.
+```
+lib/
+├── core/
+│   ├── error/
+│   ├── usecases/
+│   └── injection/
+├── data/
+│   ├── datasources/
+│   ├── models/
+│   └── repositories/
+├── domain/
+│   ├── entities/
+│   ├── repositories/
+│   └── usecases/
+└── presentation/
+    ├── bloc/
+    ├── pages/
+    └── widgets/
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Preview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/95be1c16-4909-4b2b-bc01-19dc0431588b)
